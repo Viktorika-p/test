@@ -19,29 +19,23 @@ text-transform: lowercase;
 margin-top: 25px;
 padding-bottom: 25px;
 
+
+}
+
+table {
+    border-color: firebrick;
+}
+table th,
+table td {
+    padding: 2 3px;
+}
+table.brd th,
+table.brd td {
+    border: 2px solid #000;
 }
    
 img{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
-
-
-
-
-
-
-.div2{
-  
-    font-style: oblique;
-    letter-spacing: 1px;
-    text-decoration: overline;
-}
-
-.div3{
-  
-    font-style: oblique;
-    letter-spacing: 1px;
-    text-decoration: line-through;
-}
