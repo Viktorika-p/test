@@ -1,0 +1,125 @@
+a {
+    color: #fff;
+    text-decoration: none;
+}
+  
+.main_navigation ul {
+  list-style: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+
+.main_navigation a {
+    color: #000;
+}
+
+.home_main {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.home_main section {
+    margin: 25px 20px;
+}
+
+section h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.raiting, .competitions {
+  padding: 10px;
+  background: #2C6AA0;
+  width: 350px;
+  max-width: 100%;
+}
+
+.raiting ol li {
+  color: #fff;
+}
+
+.raiting ol, .achievements ol {
+  padding: 0 0 0 20px;
+}
+
+.news, .achievements {
+  padding: 10px;
+  background: #31AB29;
+  width: 350px;
+  max-width: 100%;
+}
+
+.news ol, .competitions ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.news ol li a, .achievements ol li {
+  color: #fff;
+}
+
+.news ol li a {
+  text-decoration: none;
+}
+
+.news ol li a:hover {
+  text-decoration: underline;
+}
+
+.top_menu div {
+  text-align: right;
+}
+
+.launguages {
+    background: #fff;
+    width: 600px;
+    padding: 20px;
+    max-height: 500px;
+}
+
+.launguages span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.launguages_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.launguages_wrapper a {
+    flex: 0 0 50%;
+    display: block;
+    margin: 20px 0;
+}
+
+.launguages_wrapper a > div {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    background-size: contain !important;
+}
+
+.launguages_wrapper .js {
+    background: url(/src/homepage/images/js.png) no-repeat center center;
+}
+.launguages_wrapper .css {
+    background: url(/src/homepage/images/css.png) no-repeat center center;
+}
+.launguages_wrapper .python {
+    background: url(/src/homepage/images/python.png) no-repeat center center;
+}
+.launguages_wrapper .html {
+    background: url(/src/homepage/images/html.png) no-repeat center center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+    width: 500px;
+}
